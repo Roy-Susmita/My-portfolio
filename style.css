@@ -5,15 +5,25 @@ h1{
     font-size: 50px;
 }
 .text-highlight{
-    color: orange;
+    color: tomato;
 }
 .half-width{
-    width: 40%;
+    width: 35%;
     float: left;
+    margin-top: 5%;
     margin-left: 5%;
     padding-left: 2%;
+    text-align: justify;
 
 }
 .half-width img{
     width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
 }
