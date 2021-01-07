@@ -131,18 +131,22 @@ body{
     color: white;
     font-size: 15px;
     font-weight: 700;
-    margin-left: 80%;
     float: right;
+    margin-top: -21%;
+   
+   
 
 }
 #footer-banner h3{
     text-align: center;
+    font-family: 'Hind Siliguri', sans-serif;
     font-weight: bold;
     font-size: 25px;
     color: grey;
 }
 #footer-banner h2{
     text-align: center;
+    font-family: "Roboto", sans-serif;
     font-size:35px;
     font-weight: bold;
 }
