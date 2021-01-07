@@ -1,11 +1,12 @@
 body{
+   
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-h1{
-    font-size: 50px;
-}
-.text-highlight{
-    color: tomato;
+.first-banner{
+    height: 500px;
 }
 .half-width{
     width: 35%;
@@ -16,14 +17,142 @@ h1{
     text-align: justify;
 
 }
+
+.half-width h1{
+    font-size: 50px;
+}
+.half-width h2{
+    font-size: 40px;
+}
+.text-highlight{
+    color: tomato;
+}
+
 .half-width img{
-    width: 100%;
+    width: 80%;
+    
 }
 .link-button{
     text-decoration: none;
-    background-color: tomato;
-    padding: 10px 20px;
+    background-image: linear-gradient(90deg,salmon, tomato);
+    font-size: 15px;
+    padding: 10px 20px; 
     border-radius: 5px;
     color: white;
+    display: inline-block;
     font-weight: 700;
+}
+.first-banner1{
+    height: 500px;
+}
+.second-banner{
+    height: 600px;
+    text-align: center;
+    clear: left;
+    margin-top: 80px;
+    background-color:#d7d7d9;
+}
+.second{
+    font-size: 35px;
+    
+}
+.second-header{
+  text-align: center;
+  background-color: white;
+  width: 25%;
+  float: left;
+  margin-top: 50px;
+  margin-left: 3%;
+  padding-left: 4%;
+  box-shadow: 10px 10px 10px 3px #888888;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+
+}
+.second-header img{
+    
+        width: 100%;
+}
+.blog-banner{
+    height: 600px;
+    text-align: center;
+    clear: left;
+    margin-top: 80px;
+    background-color:#d7d7d9;
+}
+.blog{
+    font-size: 35px;
+    
+}
+.blog-header{
+    text-align: center;
+    background-color: white;
+    width: 25%;
+    float: left;
+    margin-top: 50px;
+    margin-left: 3%;
+    padding-left: 4%;
+    box-shadow: 10px 10px 10px 3px #888888;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+  
+  }
+
+  .blog-header img{
+    
+    width: 100%;
+}
+.third-banner{
+    height: 500px;
+    background-image: url("images/Group_33094_1.png");
+    background-size: 60%;
+   background-repeat: no-repeat;
+    background-position: center;
+}
+
+.third{
+    width: 50%;
+    float: left;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.third h3{
+    font-size: 40px;
+    color: white;
+    margin-left: 35%;
+    padding-top: 20%;
+   
+}
+.third a{
+    text-decoration: none;
+    background-image: linear-gradient(90deg,salmon, tomato);
+    padding: 10px 20px; 
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 80%;
+    float: right;
+
+}
+#footer-banner h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: grey;
+}
+#footer-banner h2{
+    text-align: center;
+    font-size:35px;
+    font-weight: bold;
+}
+
+.icons{
+    float: left;
+    width: 5%
+}
+
+.icons img{
+    width: 50%;
+    margin-left: 585px;
 }
